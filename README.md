@@ -13,8 +13,9 @@ It probably shouldn't be node.js, but I'm only really good at node, and the canv
 
 ## Installation
 1. Clone the repository to ~/bin/wpp. MAKE SURE THAT THIS PATH IS EXACT. I don't want to implement a system to figure out where I should be getting files from.
-2. Choose your settings; these are all relatively self explanatory, and are in the config.json file.
-3. Create a user systemd service:
+2. Run "nvm use system", then run "npm install"
+3. Choose your settings; these are all relatively self explanatory, and are in the config.json file.
+4. Create a user systemd service:
  - Create ~/.config/systemd/user/[name].service
  - Put in your configuration (Here's mine)
  ```
@@ -32,6 +33,6 @@ It probably shouldn't be node.js, but I'm only really good at node, and the canv
  ```
  - Run "systemctl --user --now enable [name].service"
  - You should be all set! If the wallpaper changes, you've done everything correctly.
-4. Enjoy!
+5. Enjoy!
 
 ## NOTE: THIS IS NOT SUPPORTED OUTSIDE KDE PLASMA. I HAVE NO IDEA HOW TO DO IT OUTSIDE OF KDE PLASMA, AND I DON'T PARTICULARLY CARE EITHER.
