@@ -1,5 +1,5 @@
 # kde-sunset-wallpaper
-Very simple node.js script to set wallpaper dynamically. It fetches the start/end of civil twighlight, and uses this to generate a gradient which is cropped based on the local time.
+Very simple node.js script to set wallpaper dynamically. It fetches the start/end of civil twighlight, and uses this to generate a gradient which is cropped based on the local time. It then draws foreground.png on top of this; you can set it to whatever you want.
 
 It probably shouldn't be node.js, but I'm only really good at node, and the canvas library is amazing
 
