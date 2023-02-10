@@ -1,0 +1,10 @@
+{
+  "foregroundAspect": 1.7777777777,
+  "height": 1024,
+  "width": 1536,
+  "lat": 40.712776,
+  "long": -74.005974,
+  "loop": true,
+  "updateIntervalMins": 5,
+  "verbosity": 1
+}
